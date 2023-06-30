@@ -1,5 +1,4 @@
 import React from "react";
-
 const Products = ({ products }) => {
   console.log("products", products);
 
@@ -27,7 +26,8 @@ const Products = ({ products }) => {
                     <h2 class="text-gray-900 title-font text-lg font-medium">
                       {title}
                     </h2>
-                    <p class="mt-1">${price}</p>
+                    <p class="mt-1 text-md font-semibold
+                    ">${price}</p>
                   </div>
                 </div>
               );
